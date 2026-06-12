@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# deployment tooling (contains secret tokens — never commit)
+/site-infra
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
