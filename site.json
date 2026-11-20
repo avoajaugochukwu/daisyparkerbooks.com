@@ -1,6 +1,17 @@
 {
   "domain": "daisyparkerbooks.com",
-  "subdomains": ["@", "www"],
-  "github": { "repo": "avoajaugochukwu/daisyparkerbooks.com" },
-  "cloudflare": { "workerName": "daisyparkerbooks-com" }
+  "subdomains": [
+    "@",
+    "www"
+  ],
+  "github": {
+    "repo": "avoajaugochukwu/daisyparkerbooks.com"
+  },
+  "cloudflare": {
+    "workerName": "daisyparkerbooks-com",
+    "scriptTag": "fdbde3e07ddc43ad8a9d3955c724f13c",
+    "triggerUuid": "701b58a4-ce1e-4c31-860e-5497d4d64ef2",
+    "workersDev": "daisyparkerbooks-com.avoajacharles.workers.dev",
+    "releaseHook": true
+  }
 }
