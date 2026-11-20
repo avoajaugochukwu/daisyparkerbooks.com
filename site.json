@@ -1,0 +1,6 @@
+{
+  "domain": "daisyparkerbooks.com",
+  "subdomains": ["@", "www"],
+  "github": { "repo": "avoajaugochukwu/daisyparkerbooks.com" },
+  "cloudflare": { "workerName": "daisyparkerbooks-com" }
+}

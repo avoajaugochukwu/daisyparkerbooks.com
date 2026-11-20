@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Newsreader, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import { DOMAIN } from "@/lib/site";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -24,7 +25,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://daisyparkerbooks.com"),
+  metadataBase: new URL(`https://${DOMAIN}`),
   title: {
     default: "Daisy Parker — Novelist",
     template: "%s — Daisy Parker",
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     title: "Daisy Parker — Novelist",
     description:
       "Quiet, devastating novels about water, family, and the long weather of grief.",
-    url: "https://daisyparkerbooks.com",
+    url: `https://${DOMAIN}`,
     siteName: "Daisy Parker",
     type: "website",
   },

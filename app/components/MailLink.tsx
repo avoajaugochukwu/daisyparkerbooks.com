@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, type ReactNode } from "react";
+import { DOMAIN } from "@/lib/site";
 
 /**
  * Spam-resistant email link. The address is assembled in the browser after
@@ -12,7 +13,6 @@ import { useEffect, useState, type ReactNode } from "react";
  * ("hello [at] daisyparkerbooks.com"), or to whatever `children` you pass.
  */
 const USER = "hello";
-const DOMAIN = "daisyparkerbooks.com";
 
 export default function MailLink({
   subject,
